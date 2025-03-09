@@ -1,0 +1,27 @@
+{
+    "editor.formatOnSave": true,
+    "workbench.colorTheme": "Dracula Theme",
+    "editor.fontSize": 14,
+    "files.autoSave": "afterDelay",
+    "notebook.formatOnSave.enabled": true,
+    "editor.foldingImportsByDefault": false,
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.unusedImports": "explicit"
+        }
+    },
+    "python.analysis.typeCheckingMode": "strict",
+    "python.analysis.autoImportCompletions": true,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "files.exclude": {
+        ".coverage": true,
+        ".ruff_cache": true
+    },
+    "[toml]": {
+        "editor.defaultFormatter": "tamasfe.even-better-toml"
+    },
+    "editor.defaultFormatter": "charliermarsh.ruff"
+}

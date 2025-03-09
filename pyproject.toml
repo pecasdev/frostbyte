@@ -1,0 +1,13 @@
+[project]
+name = "frostbyte"
+version = "0.0.1"
+description = "cmdline storage solution for the aesthetic paranoid"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pipe>=2.2",
+    "pytest>=8.3.5",
+    "pytest-cov>=6.0.0",
+    "returns>=0.24.0",
+    "ruff>=0.9.10",
+]
